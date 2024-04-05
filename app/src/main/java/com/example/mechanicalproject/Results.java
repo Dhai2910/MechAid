@@ -53,10 +53,12 @@ public class Results extends AppCompatActivity {
         XAxis xAxis = lineChart.getXAxis();
         xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
         xAxis.setAxisLineColor(R.color.black);
+        xAxis.setTextColor(R.color.white);
         xAxis.setAxisLineWidth(1f);
 
         YAxis yAxis = lineChart.getAxisLeft();
         yAxis.setAxisLineColor(R.color.black);
+        yAxis.setTextColor(R.color.white);
         yAxis.setAxisLineWidth(1f);
 
         List<Entry> entries = new ArrayList<>();
@@ -97,10 +99,12 @@ public class Results extends AppCompatActivity {
         XAxis xAxis2 = lineChart.getXAxis();
         xAxis2.setPosition(XAxis.XAxisPosition.BOTTOM);
         xAxis2.setAxisLineColor(R.color.black);
+        xAxis2.setTextColor(R.color.white);
         xAxis2.setAxisLineWidth(1f);
 
         YAxis yAxis2 = lineChart.getAxisLeft();
         yAxis2.setAxisLineColor(R.color.black);
+
         yAxis2.setAxisLineWidth(1f);
         List<Entry> entries1 = new ArrayList<>();
         if(loads[0][0] == b) {

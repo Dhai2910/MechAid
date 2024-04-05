@@ -71,6 +71,11 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
             Intent i = new Intent(Intent.ACTION_VIEW, feedback);
             startActivity(i);
         }
+
+        if(pos == 2){
+            Intent i = new Intent(this, About_Us_Activity.class);
+            startActivity(i);
+        }
     }
 
 }
