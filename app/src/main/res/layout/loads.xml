@@ -40,10 +40,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
             android:text="12"
             android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="@+id/distance"
+            app:layout_constraintEnd_toStartOf="@+id/mag"
+            app:layout_constraintHorizontal_bias="0.118"
             app:layout_constraintStart_toEndOf="@+id/distance"
             app:layout_constraintTop_toTopOf="@+id/distance"
             app:layout_constraintVertical_bias="0.0" />
